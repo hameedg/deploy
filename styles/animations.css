@@ -1,0 +1,8 @@
+.fadeout {
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+.fadein {
+  opacity: 1;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
