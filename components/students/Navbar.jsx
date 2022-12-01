@@ -32,9 +32,15 @@ const Navbar = () => {
           <div className=" pl-16 lg:flex space-x-4 items-center w-full justify-between hidden">
             <div className="lg:flex space-x-8 items-center justify-start">
               <Link href="/colleges" passHref>
-                <div className="block text-sm hover:text-[#0dbd8b] text-black cursor-pointer leading-[1.6em] ">
+                <a
+                  className={
+                    router.pathname === '/colleges'
+                      ? 'text-[#ef2c5a] bg-[#fef1f0] text-sm rounded-full cursor-pointer block leading-[1.6em] px-3 py-1'
+                      : 'text-black bg-white text-sm rounded-full cursor-pointer block leading-[1.6em] px-3 py-1'
+                  }
+                >
                   Colleges
-                </div>
+                </a>
               </Link>
               <Link href="/students" passHref>
                 <a
@@ -48,9 +54,15 @@ const Navbar = () => {
                 </a>
               </Link>
               <Link href="/companies" passHref>
-                <div className="block text-sm hover:text-[#0dbd8b] text-black cursor-pointer leading-[1.6em] ">
+                <a
+                  className={
+                    router.pathname === '/companies'
+                      ? 'text-[#ef2c5a] bg-[#fef1f0] text-sm rounded-full cursor-pointer block leading-[1.6em] px-3 py-1'
+                      : 'text-black bg-white text-sm rounded-full cursor-pointer block leading-[1.6em] px-3 py-1'
+                  }
+                >
                   Companies
-                </div>
+                </a>
               </Link>
             </div>
             <div className="flex items-center justify-between space-x-5">
