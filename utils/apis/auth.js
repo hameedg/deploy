@@ -1,3 +1,4 @@
+/*
 import axios from 'axios';
 
 axios.defaults.withCredentials = true;
@@ -36,3 +37,4 @@ export const resetPassword = (email, otp, password) =>
   });
 export const verifyToken = () =>
   axios.get(`${process.env.NEXT_PUBLIC_BACKEND_URL}/auth/validate`);
+*/
