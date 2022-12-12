@@ -111,7 +111,7 @@ const LandingPage = () => {
             className="col-span-10 lg:col-span-4 pt-[19%]"
           >
             <h1
-              className={` text-[40px] sm:text-[42px] tracking-normal sm:tracking-[-0.015em] leading-[60px] ${styles.fontGazpacho} font-extrabold  mb-8 sm-mid-tablet:text-3xl sm-mid-tablet:leading-snug`}
+              className={` text-[40px] sm:text-[42px] mt-[50px] tracking-normal sm:tracking-[-0.025em] leading-[60px] font-bold  mb-8 sm-mid-tablet:text-3xl sm-mid-tablet:leading-snug`}
             >
               Bridging companies and campuses to
               <span className="text-purple-500"> empower students</span>

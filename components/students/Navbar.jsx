@@ -10,11 +10,17 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import Footer from './Footer';
+import Dummy from './Dummy';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [drop, setDrop] = useState(false);
 
   const router = useRouter();
+  function handle() {
+    setDrop(!drop);
+  }
 
   return (
     <>
@@ -57,15 +63,37 @@ const Navbar = () => {
                 <a
                   className={
                     router.pathname === '/companies'
-                      ? 'text-[#ef2c5a] bg-[#fef1f0] text-sm rounded-full cursor-pointer block leading-[1.6em] px-3 py-1'
-                      : 'text-black bg-white text-sm rounded-full cursor-pointer block leading-[1.6em] px-3 py-1'
+                      ? 'text-[#ef2c5a] bg-[#fef1f0] text-sm rounded-full cursor-pointer relative flex leading-[1.6em] px-3 py-1'
+                      : 'text-black bg-white text-sm rounded-full cursor-pointer relative flex leading-[1.6em] px-3 py-1'
                   }
                 >
                   Companies
                 </a>
               </Link>
             </div>
-            <div className="flex items-center justify-between space-x-5">
+            {/* this is new */}
+            <div className="flex items-center justify-between space-x-5 ">
+              <a
+                className={
+                  'text-black bg-white text-sm rounded-full cursor-pointer relative flex leading-[1.6em] px-3 py-1'
+                }
+                onClick={handle}
+              >
+                Resources
+                <img
+                  src="https://klasha.com/_next/static/media/dropdown.827ae27f.svg"
+                  className="ml-[6px]"
+                ></img>
+              </a>
+              <div
+                className={
+                  drop
+                    ? 'absolute left-[50%] translate-x-[-50%] top-0 z-[1] mt-[80px] min-w-[100vw]'
+                    : 'hidden left-[50%] translate-x-[-50%] top-0 z-[10] mt-[80px] min-w-[100vw]'
+                }
+              >
+                <Dummy />
+              </div>
               <Link href="/login" passHref>
                 <div className="block text-sm mr-4 text-black cursor-pointer leading-[1.6em] ">
                   Login

@@ -7,8 +7,8 @@ import Navbar from '../students/Navbar';
 const Index = ({ children }) => (
   <>
     {/* <MainNavigation /> */}
-    {/* <Navbar /> */}
-    <BarNav />
+    <Navbar />
+    {/* <BarNav /> */}
     <main>{children}</main>
     {/* <Footer /> */}
   </>
