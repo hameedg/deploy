@@ -10,7 +10,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import Footer from './Footer';
+
 import Dummy from './Dummy';
 
 const Navbar = () => {
