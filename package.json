@@ -21,7 +21,7 @@
     "next": "^13.1.6",
     "react": "^17.0.0",
     "react-collapse": "^5.1.1",
-    "react-dom": "^18.2.0",
+    "react-dom": "^16.0.1",
     "react-flags-select": "^2.2.3",
     "react-icons": "^4.7.1",
     "react-phone-input-2": "^2.15.1",
