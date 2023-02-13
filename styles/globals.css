@@ -107,7 +107,7 @@
 
 @media (max-width: 480px) {
   .home-img {
-    background-image: url('/images/landing-page-m.png');
+    background-image: url('https://ik.imagekit.io/internquest/Intern_Quest/smartgrad_landing_page_mobile_res.png');
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -123,12 +123,12 @@
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
   .home-img {
-    background-image: url('/images/landing-page-l.png');
+    background-image: url('https://ik.imagekit.io/internquest/Intern_Quest/smartgrad_landing_page_1280_720P.png');
   }
 }
 
 @media (min-width: 1281px) {
   .home-img {
-    background-image: url('/images/landing-page.png');
+    background-image: url('https://ik.imagekit.io/internquest/Intern_Quest/smartgrad_landing_page_1920_800P.png');
   }
 }

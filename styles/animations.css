@@ -1,8 +1,25 @@
 .fadeout {
   opacity: 0;
   transition: visibility 0s 2s, opacity 2s linear;
+
 }
 .fadein {
   opacity: 1;
-  transition: visibility 0s 2s, opacity 2s linear;
+  transition: opacity 2s linear;
+
 }
+
+
+ @keyframes changeText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+
+  }
+  50%{
+    opacity: 1;
+  }
+} /* animation: changeText 8s linear; */

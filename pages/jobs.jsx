@@ -1,12 +1,10 @@
 import React from 'react';
-import Cards from '../components/students/Cards';
-import Navbar from '../components/students/Navbar';
+import JobsC from '../../intern/components/JobsC';
 
 const jobs = () => {
   return (
     <>
-      <Navbar />
-      <Cards />
+      <JobsC />
     </>
   );
 };
