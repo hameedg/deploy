@@ -114,8 +114,7 @@ const LandingPage = () => {
               className={` text-[40px] sm:text-[42px] mt-[50px] tracking-normal sm:tracking-[-0.025em] leading-[60px] font-bold  mb-8 sm-mid-tablet:text-3xl sm-mid-tablet:leading-snug`}
             >
               Bridging companies and campuses to
-              <span className="text-purple-500"> empower student
-              </span>
+              <span className="text-purple-500"> empower students</span>
             </h1>
             <p className=" text-lg tracking-[-0.015em] mb-8 mt-0">
               Hirable is creating a future where it is exciting and fair to
