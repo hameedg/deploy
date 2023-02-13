@@ -12,10 +12,7 @@
     "export": "next export",
     "heroku-postbuild": "npm run build"
   },
-  "engines": {
-    "npm": "6.x",
-    "node": "14.x"
-  },
+
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "animate.css": "^4.1.1",
