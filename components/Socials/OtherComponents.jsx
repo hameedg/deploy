@@ -5,7 +5,7 @@ import PreferenceTags from '../common/Other Components/PreferenceTags';
 import styles from '../../styles/student.module.css';
 import DataComponent from '../common/Other Components/DataComponent';
 
-import Google from '../../public/images/google logo.png';
+import Google from '../../public/images/google_logo.png';
 import CompanyCards2 from '../common/Other Components/CompanyCards2';
 
 const OtherComponents = () => {
@@ -29,19 +29,19 @@ const OtherComponents = () => {
 
       {/* Company Cards */}
       <div className="flex items-center justify-center">
-        <div className="mx-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
-          <div className="col-span-1">
-            <CompanyCards2
-              title={'Software Engineering Intern'}
-              company={'Google'}
-              image={'google logo'}
-            />
-          </div>
+        {/* <div className="mx-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
           <div className="col-span-1">
             <CompanyCards
               title={'Autopilot Foundations Internship C/C++'}
               company={'Tesla'}
-              image={'tesla logo'}
+              image={'tesla_logo'}
+            />
+          </div>
+          <div className="col-span-1">
+            <CompanyCards2
+              title={'Software Engineering Intern'}
+              company={'Google'}
+              image={'google_logo'}
             />
           </div>
           <div className="col-span-1">
@@ -72,7 +72,7 @@ const OtherComponents = () => {
               image={'tiktok logo'}
             />
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Divider */}

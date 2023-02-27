@@ -313,9 +313,9 @@ const SignUp = () => {
             >
               Already have an account?{' '}
               <Link href="/login">
-                <a className="font-semibold cursor-pointer text-signup-blue">
+                <div className="font-semibold cursor-pointer text-signup-blue">
                   Log In
-                </a>
+                </div>
               </Link>
             </p>
           </div>

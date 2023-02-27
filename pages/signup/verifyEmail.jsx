@@ -164,11 +164,11 @@ const Interests = () => {
               <p className="text-base text-center mt-2">
                 Not your account ?{' '}
                 <Link href="/">
-                  <a>
+                  <div>
                     <span className="font-semibold cursor-pointer text-signup-blue">
                       Log Out
                     </span>
-                  </a>
+                  </div>
                 </Link>
               </p>
             </div>

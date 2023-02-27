@@ -1,6 +1,5 @@
 import React from 'react';
 // import CompanyImage from '../Other Components/CompanyImage.png';
-import Image from 'next/image';
 
 const CompanyCards2 = ({ title, company, image }) => {
   return (
@@ -18,13 +17,11 @@ const CompanyCards2 = ({ title, company, image }) => {
             src="../Other Components/CompanyImage.png"
             alt="Company"
           /> */}
-          <Image
-            // className="w-[48px] h-[48px]"
-            height={'48px'}
-            width="48px"
+          <img
+            className="w-[48px] h-[48px]"
             alt="Company"
             src={`/images/${image}.png`}
-          />
+          ></img>
         </div>
       </div>
     </div>

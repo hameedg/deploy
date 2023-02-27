@@ -32,31 +32,31 @@ const Navbar = () => {
           </Link>
           <div className="lg:flex lg:items-center lg:justify-between bg-white lg:py-5 lg:px-12 hidden">
             <Link href="/test" passHref>
-              <a
+              <div
                 className={
                   router.pathname === '/test' ? activeLink : normalLink
                 }
               >
                 <p className="text-sm">Colleges</p>
-              </a>
+              </div>
             </Link>
             <Link href="/students" passHref>
-              <a
+              <div
                 className={
                   router.pathname === '/students' ? activeLink : normalLink
                 }
               >
                 <p className="text-sm">Students</p>
-              </a>
+              </div>
             </Link>
             <Link href="/login" passHref>
-              <a
+              <div
                 className={
                   router.pathname === '/login' ? activeLink : normalLink
                 }
               >
                 <p className="text-sm">Login</p>
-              </a>
+              </div>
             </Link>
           </div>
           <div className="lg:block hidden">

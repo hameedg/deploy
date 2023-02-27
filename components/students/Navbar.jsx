@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className=" pl-16 lg:flex space-x-4 items-center w-full justify-between hidden">
             <div className="lg:flex space-x-8 items-center justify-start">
               <Link href="/colleges" passHref>
-                <a
+                <div
                   className={
                     router.pathname === '/colleges'
                       ? 'text-[#ef2c5a] bg-[#fef1f0] text-sm rounded-full cursor-pointer block leading-[1.6em] px-3 py-1'
@@ -46,10 +46,10 @@ const Navbar = () => {
                   }
                 >
                   Colleges
-                </a>
+                </div>
               </Link>
               <Link href="/students" passHref>
-                <a
+                <div
                   className={
                     router.pathname === '/students'
                       ? 'text-[#ef2c5a] bg-[#fef1f0] text-sm rounded-full cursor-pointer block leading-[1.6em] px-3 py-1'
@@ -57,10 +57,10 @@ const Navbar = () => {
                   }
                 >
                   Students
-                </a>
+                </div>
               </Link>
               <Link href="/companies" passHref>
-                <a
+                <div
                   className={
                     router.pathname === '/companies'
                       ? 'text-[#ef2c5a] bg-[#fef1f0] text-sm rounded-full cursor-pointer relative flex leading-[1.6em] px-3 py-1'
@@ -68,7 +68,7 @@ const Navbar = () => {
                   }
                 >
                   Companies
-                </a>
+                </div>
               </Link>
             </div>
             {/* this is new */}
@@ -139,10 +139,10 @@ const Navbar = () => {
                 ))} */}
               <div className="flex flex-col items-start justify-start space-y-8 mt-8 mb-8">
                 <Link href="/colleges" passHref>
-                  <a className="px-3">Colleges</a>
+                  <div className="px-3">Colleges</div>
                 </Link>
                 <Link href="/students" passHref>
-                  <a
+                  <div
                     className={
                       router.pathname === '/students'
                         ? 'text-[#ef2c5a] bg-[#fef1f0]  rounded-full cursor-pointer block leading-[1.6em] px-3 py-1'
@@ -150,10 +150,10 @@ const Navbar = () => {
                     }
                   >
                     Students
-                  </a>
+                  </div>
                 </Link>
                 <Link href="/companies" passHref>
-                  <a className="px-3">Companies</a>
+                  <div className="px-3">Companies</div>
                 </Link>
               </div>
 
